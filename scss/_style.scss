@@ -42,6 +42,7 @@
   --prime-ten: #ff3294;
   --prime-eleven: #ffce4c;
   --prime-twelve: #ffe500;
+  --prime-srnahmet-projects:linear-gradient(-90deg, #27f1ff 0%, #ece9e9,  100%);
 }
 ::selection {
   background-color: #2a2a2a;
@@ -862,7 +863,7 @@ body .btn-sixteen {
   border-radius: 30px;
   color: #fff;
   letter-spacing: -0.5px;
-  background: var(--prime-seven);
+  background: var(--prime-srnahmet-projects);
   padding: 0 40px;
   z-index: 1;
 }
@@ -874,7 +875,7 @@ body .btn-sixteen:before {
   width: 100%;
   height: 100%;
   border-radius: 30px;
-  background: linear-gradient(90deg, #ff7df2 0%, #ff275b 100%);
+  background: linear-gradient(90deg, #3d82e9 25%, #27f1ff 100%);
   opacity: 0;
   z-index: -1;
   transition: opacity 0.3s ease-in-out;
